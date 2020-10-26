@@ -2,10 +2,10 @@ var navBars = $('.header-right > a');
 var close = $('.close');
 
 navBars.click(function () {
-  $('.hamburger-menu').show();
+  $('.hamburger-menu').show('slow');
 
 })
 
 close.click( function () {
-  $('.hamburger-menu').hide();
+  $('.hamburger-menu').hide('fast');
 })
